@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * main - Entry point
- * Description: program will assign a random number to the variable n
+ * Description: A program that will assign a random number to the variable n
  * each time it is executed
  * Return 0 (Success)
  */
@@ -14,18 +14,18 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	last = n % 10;
-	if (last > 5)
+	l = n % 10;
+	if (l > 5)
 	{
-		printf("Last number of %i is %i and is greater than 5\n", n. last);
+		printf("Last number of %d is %d  and is greater than 5\n", n, l);
 	}
-	else if (last == 0)
+	else if (l < 6 && l != 0)
 	{
-		printf("Last number of %i is %i and is 0\n", n, last);
+		printf("Last number of %d is %d and is lass than 6 and not 0\n", n, l);
 	}
-	else if (last < 6)
+	else
 	{
-		printf("Last number of %i is %i and is less than 6 and not 0\n", n, Last);
+		printf("Last number of %d is %d and is 0\n", n, l);
 	}
 	return (0);
 }
