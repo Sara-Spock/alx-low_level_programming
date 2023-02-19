@@ -13,7 +13,7 @@ int main(void)
 	{
 		for (d = 26; d <= 35; d++)
 		{
-			for (s = 26; a <= 35; s++)
+			for (s = 26; s <= 35; s++)
 			{
 				for (h = 26; h <= 35; h++)
 				{
