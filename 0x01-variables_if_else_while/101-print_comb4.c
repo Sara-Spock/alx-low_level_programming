@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
  * main - Entry point
  * Description: prints all possible different combinations of three digits
@@ -30,6 +30,6 @@ int main(void)
 			}
 		}
 	}
-	puthcar('\n');
+	putchar('\n');
 	return (0);
 }
