@@ -25,7 +25,7 @@ int main(void)
 						putchar(s);
 						putchar(h);
 
-						if (m + d + s + h == 225 && m == 35)
+						if (m + d + s + h == 139 && m == 35)
 						{
 							break;
 						}
