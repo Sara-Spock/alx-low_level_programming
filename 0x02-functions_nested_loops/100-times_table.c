@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * pritn_times_table - prints the n times table, starting with 0
+ * print_times_table - prints the n times table, starting with 0
  * @n: the number to be timed
  * Description: function that prints the n times table, starting at 0.
  * Return: number matrix
