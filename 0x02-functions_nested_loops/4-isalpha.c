@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _isalpha - Entry point
+ * isalpha - Entry point
  * @c: value integer recieves
  * Description: checks for alphabetic character
  * Return: 1 if true. 0 if false.
  */
-int _isalpha(int c)
+int isalpha(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
