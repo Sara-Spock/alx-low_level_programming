@@ -7,19 +7,14 @@
  * Return: 0
  */
 
-void pritn_line(int n)
+void print_line(int n)
 {
-	int a;
-	if (n <= 0)
+	int a = 0;
+
+	while (a < n && n > 0)
 	{
-		_putchar('\n');
+		_putchar('_');
+		a++;
 	}
-	else
-	{
-		for (n = 0; a < n; a++)
-		{
-			_putchar(95);
-		}
-		_putchar('\n');
-	}
+	_putchar('\n');
 }
