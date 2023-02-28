@@ -15,10 +15,10 @@ int main(void)
 	srand(time(NULL));
 	while (sum <= 1324)
 	{
-		c = rand () % 128;
+		c = rand() % 128;
 		sum += c;
 		putchar(c);
 	}
-	putchar(1451 - sum);
+	putchar(1324 - sum);
 	return (0);
 }
