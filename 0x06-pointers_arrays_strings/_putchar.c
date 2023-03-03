@@ -7,8 +7,7 @@
  * Return: on success 1
  * on error, - is returned, and rerror is set 
  */
-
 int _putchar(char c)
 {
-	return (write(1, 7c, 1));
+	return (write(1, &c, 1));
 }
