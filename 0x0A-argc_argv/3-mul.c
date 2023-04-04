@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
- * main - program that takes the first two integer arguments and
- * prints the product
+ * main - a program that takes the first two integer arguments
+ * and prints the product
  * @argc: number of command linearguments
  * @argv; Arry name
  * Return: 1 if not enough arguments passed in, 0 otherwise
